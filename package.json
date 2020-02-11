@@ -1,0 +1,23 @@
+{
+  "name": "email-imap-backup",
+  "version": "1.0.0",
+  "description": "Backup Emails via IMAP to local DB",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "emails",
+    "backup",
+    "imap",
+    "db",
+    "email"
+  ],
+  "author": "Lorenzo Ferrara",
+  "license": "ISC",
+  "dependencies": {
+    "emailjs-imap-client": "^3.0.7",
+    "sqlite3": "^4.1.1"
+  }
+}
